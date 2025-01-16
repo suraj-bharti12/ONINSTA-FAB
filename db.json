@@ -1,9 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "restrictedPincodes": [
+    {
+      "pincode": "110001",
+      "restricted": true
+    },
+     {
+      "pincode": "110002",
+      "restricted": true
+    }
+   
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "emaildata":[
+    {
+      "email":"abc@gmail.com",
+      "restricted": true
+    }      
   ],
-  "profile": { "name": "typicode" }
+  "phoneNumbers":[
+    {
+      "phoneNumbers":8340170682,
+       "restricted": true
+      
+    }
+  ]
 }
